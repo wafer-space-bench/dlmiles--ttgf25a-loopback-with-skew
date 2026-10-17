@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/dlmiles/ttgf25a-loopback-with-skew
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf0p2
+  slot: tt_um_dlmiles_loopback
+  project: GF180MCU loopback tile with input skew measurement
+  size: 1x1
+  kind: digital (Verilog)
+  commit: b29b383f095e60a64c6339c05a52f537a6f3e9e3
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf0p2/tt_um_dlmiles_loopback
+  branch: tapeout/tinytapeout/ttgf0p2/tt_um_dlmiles_loopback
+  page: https://app.tinytapeout.com/shuttles/ttgf0p2
+generated: '2026-10-17T23:29:46Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf0p2/tt_um_dlmiles_loopback
+- upstream/main
